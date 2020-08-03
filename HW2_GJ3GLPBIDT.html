@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <style>
+        #buton{ border: 5px 5px 5px 5px;
+        /* background-color: gray; */
+        
+        }
+    </style>
+</head>
+
+<body>
+
+    
+<script>
+
+function abigail() {
+ document.getElementById("currentdate").innerHTML = Date();
+ document.getElementById('buton').style.borderColor = "blue";
+}
+</script>
+
+<button id="buton" onclick="abigail()">Get Date</button>
+<p id="currentdate"></p>
+</body>
+</html>
